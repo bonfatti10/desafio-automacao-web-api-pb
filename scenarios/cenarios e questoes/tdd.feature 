@@ -1,0 +1,44 @@
+Funcionalidade: Cadastro e busca de Imóvel
+
+Cenário: Imobiliária cadastra um novo imóvel com sucesso
+Dado que o sistema está pronto para receber cadastros de imóveis
+Quando a imobiliária cadastra um novo imóvel com todas as informações necessárias
+Então o sistema deve aceitar o cadastro
+E o imóvel deve estar disponível para consulta
+
+Cenário: Cliente visualiza imóvel cadastrado com sucesso
+Dado que existem imóveis cadastrados no sistema
+Quando o cliente busca por imóveis disponíveis
+Então o sistema deve exibir a lista de imóveis disponíveis
+E o cliente deve visualizar os detalhes do imóvel desejado
+
+Cenário: Imobiliária tenta cadastrar um imóvel com informações incompletas
+Dado que o sistema está pronto para receber cadastros de imóveis
+Quando a imobiliária tenta cadastrar um imóvel sem preencher todas as informações obrigatórias
+Então o sistema deve rejeitar o cadastro
+E exibir uma mensagem indicando as informações faltantes
+
+Cenário: Busca de imóvel por filtro
+Dado que o usuário esteja buscando um imóvel
+Quando selecionar o filtro desejado para ter uma busca mais objetiva
+Então devem ser exibidos apenas os imóveis referentes ao filtro aplicado
+
+Cenário: Imóvel não encontrado no filtro aplicado
+Dado que o usuário esteja buscando um imóvel
+Quando selecionar o filtro desejado para ter uma busca mais objetiva e não houver imóveis disponíveis
+Então deve ser exibido apenas uma mensagem informando que não existem imóveis referente ao filtro aplicado.
+
+Funcionalidade: Solicitação de financiamento
+
+Cenário: Cliente solicita financiamento para a compra de um imóvel com sucesso
+Dado que o cliente está interessado em financiar a compra de um imóvel
+Quando o cliente preenche todas as informações necessárias para a solicitação de financiamento
+Então o sistema deve aceitar a solicitação de financiamento
+E encaminhar as informações para análise bancária
+
+Cenário: Cliente tenta solicitar financiamento sem crédito suficiente
+Dado que o cliente está interessado em financiar a compra de um imóvel
+Quando o cliente preenche todas as informações necessárias para a solicitação de financiamento
+E a análise bancária verifica que o cliente não possui crédito suficiente
+Então o sistema deve rejeitar a solicitação de financiamento
+E informar ao cliente sobre a falta de crédito disponível

@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Dec 27 15:38:40 BRT 2023","Wed Dec 27 15:38:44 BRT 2023","3757","","click on the 3 buttons ","","click on the 3 buttons ","checks if buttons have been clicked","checks if buttons have been clicked",""
+"passed","Wed Dec 27 15:38:29 BRT 2023","Wed Dec 27 15:38:29 BRT 2023","157","","Delete/users","","Delete/users","delete a user","delete a user",""
+"passed","Wed Dec 27 15:38:36 BRT 2023","Wed Dec 27 15:38:38 BRT 2023","1923","","Click on the buttons edit and delete -  second example using for ","","Click on the buttons edit and delete -  second example using for ","click edit and delete","click edit and delete",""
+"passed","Wed Dec 27 15:38:31 BRT 2023","Wed Dec 27 15:38:36 BRT 2023","5558","","click on the buttons edit and delete - first simple example ","","click on the buttons edit and delete - first simple example ","click edit and delete","click edit and delete",""
+"passed","Wed Dec 27 15:38:28 BRT 2023","Wed Dec 27 15:38:29 BRT 2023","375","","PUT /users","","PUT /users","update a new user","update a new user",""
+"passed","Wed Dec 27 15:38:28 BRT 2023","Wed Dec 27 15:38:28 BRT 2023","153","","POST /users","","POST /users","register a new user","register a new user",""
+"passed","Wed Dec 27 15:38:28 BRT 2023","Wed Dec 27 15:38:28 BRT 2023","131","","GET /users","","GET /users","list users","list users",""

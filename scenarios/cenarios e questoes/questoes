@@ -1,0 +1,27 @@
+1.Dado esse cenário, como você iniciaria uma estratégia de teste?
+Entendimento do Projeto: Antes de começar os testes, devemos ter um profundo entendimento sobre o projeto, revisar documentos de requisitos, arquitetura e design.
+Definição de Critérios de Aceite: Trabalhar com estreita colaboração com as partes interessadas para definir critérios de aceite claros para cada funcionalidade, ajudando na avaliação do sucesso dos testes.
+
+2.Quais abordagens de teste você consideraria?
+Testes Funcionais: Garantir que todas as funcionalidades, desde a pesquisa de imóveis até o processo de compra, estão funcionando conforme o esperado.
+Testes de Desempenho: Como terá um alto volume de operações, testar o desempenho do sistema é necessário para garantir que ele possa lidar com cargas significativas.
+Testes de Segurança: Transações imobiliárias contém dados sensíveis, então é importante testar a segurança do sistema para proteger dados confidenciais.
+Testes de Integração: Validar as integrações com sistemas externos, como bancos e outras plataformas imobiliárias, para garantir uma comunicação eficiente.
+
+3.Como você trabalharia com diferentes tipos/níveis de teste?
+Testes Unitários/Componentes: Garantir que cada microsserviço funcione individualmente como esperado.
+Testes de Integração/API/Performance: Verificar a comunicação suave entre os microsserviços.
+Testes de Sistema/E2E/Usabilidade: Validar o sistema como um todo para garantir que todas as partes interagem corretamente.
+Testes de Aceitação do Usuário (UAT): Envolver os clientes para testar o sistema em um ambiente controlado antes do lançamento.
+
+4. Quais ferramentas você consideraria usar?
+Testes Automatizados: Considero ferramentas como Cypress, RestAssured, Postman, JUnit5 e Appium para automatizar testes funcionais e de integração.
+Testes de Desempenho: K6 para testes de carga e desempenho.
+Segurança: Ferramentas como por exemplo OWASP ZAP, Nmap e OpenVAS podem ajudar nos testes de segurança.
+
+5.Como você se imagina atuando nessa equipe?
+Colaboração: Trabalhar de perto com os desenvolvedores, analistas de negócios e partes interessadas ajuda a ter uma compreensão completa dos requisitos e funcionalidades.
+Comunicação Eficiente: Ter uma comunicação aberta com a equipe sobre o progresso dos testes, identificação e resolução de problemas.
+Flexibilidade: Estar sempre preparado para se adaptar às mudanças, já que os requisitos podem evoluir durante o processo.
+
+Devemos sempre ressaltar que a estratégia de teste é um processo iterativo, e ajustes podem ser necessários à medida que o projeto avança e novos requisitos são identificados.
