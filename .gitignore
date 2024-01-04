@@ -1,0 +1,10 @@
+# Arquivos de resultados de testes gerados pelo Cypress
+/cypress/videos/
+/cypress/screenshots/
+
+# Arquivos de cache ou build
+/cypress/downloads/
+/cypress/.cache/
+
+# Arquivos de dependências do Cypress (caso você não queira rastreá-los)
+/node_modules/
