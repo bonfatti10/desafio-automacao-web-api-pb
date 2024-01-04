@@ -6,5 +6,5 @@
 /cypress/downloads/
 /cypress/.cache/
 
-# Arquivos de dependências do Cypress (caso você não queira rastreá-los)
+# Arquivos de dependências do Cypress 
 /node_modules/
