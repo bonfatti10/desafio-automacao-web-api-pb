@@ -54,8 +54,6 @@ npx cypress run
 ```bash
 npm run test:allure
 ```
-![Alt text](<Captura de Tela 2024-01-03 às 22.20.08.png>)
-
 ## Lint:
 - Comando para identificar erros:
 npm run lint
