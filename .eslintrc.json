@@ -1,8 +1,3 @@
-
-It looks like there is a small syntax error in your ESLint configuration. The "plugins" array should be inside the "extends" object. Here's the corrected version:
-
-json
-Copy code
 {
     "env": {
         "browser": true,
